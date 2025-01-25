@@ -11,9 +11,9 @@ class Solution:
         
         # Append remaining characters from the longer string
         if i < len(word1):
-            merged_string.append(word1[i:])
+            merged_string.append(word1[i:]) # Create a substring starting from the index i to the end of the string
         if j < len(word2):
-            merged_string.append(word2[j:])
+            merged_string.append(word2[j:]) # Create a substring starting from the index i to the end of the string
         
         return ''.join(merged_string)
 
